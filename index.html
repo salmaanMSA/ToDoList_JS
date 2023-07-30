@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <!-- Todo Input -->
+        <div class="input-section">
+            <input type="text" id="add_input" placeholder="Enter your task.....">
+            <button id="addTask">Add</button>
+        </div>
+        <ul id="todo_list">
+            <!-- Todo items will be added here dynamically -->
+        </ul>
+        <div class="status">
+            <p id="taskCount">Total tasks: 0</p>
+            <p id="tasksLeft">Tasks left: 0</p>
+            <p id="tasksCompleted">Tasks completed: 0</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
